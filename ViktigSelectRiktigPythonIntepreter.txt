@@ -1,0 +1,14 @@
+Bruk kommand palette:
+ctrl + shift + p
+Python: Select Interpreter (enter)
+Velg:
+Python 3.12.6 (eldste versjon) tilde\AppData\Local\Programs\Python\Python312\Python.exe (det tredje alternativet)
+
+Det er også mulig å sette det i .vscode/settings.json
+Ctrl + , og skriv settings
+Denne har jeg limet inn i settings.json og de fungerer
+        // filepath: .vscode/settings.json
+    "python.defaultInterpreterPath": "C:\\Users\\Supermann\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+
+Komma på slutten siden det er flere settings etter denne. 
+
