@@ -1,7 +1,7 @@
 # til slutt eksempel med pylab i stedet for numpy og plt
 
 from pylab import *
-
+#tester github
 print('Bakterievekst: f(n) = 2 * f(n-1)')
 antall_dager = 8
 bakterier = zeros(antall_dager)
