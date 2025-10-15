@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sympy import symbols, solve
+import os
+# Clear the terminal
+os.system('cls' if os.name == 'nt' else 'clear')
+
 x = symbols('x')
 # skriv inn funksjonen her og to linjer ned også. Om du har nevner skriv i denominator
 funksjon = (3*x - 1)/(x + 3) # (2*x**2+2*x+5)/(x-1)  x**3 - 6*x**2 + 11*x - 6  skriv inn funksjonen din her og ned i linje 10

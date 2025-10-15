@@ -1,4 +1,6 @@
-
+import os
+# Clear the terminal
+os.system('cls' if os.name == 'nt' else 'clear')
 """
 Created on Wed Feb 14 09:50:43 2024
 @author: jokane

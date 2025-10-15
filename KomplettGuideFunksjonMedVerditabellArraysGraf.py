@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+import os
+# Clear the terminal
+os.system('cls' if os.name == 'nt' else 'clear')
+
 """
 Created lørdag 3.feb 2024, @author: Jørn Kanestrøm
 """

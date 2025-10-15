@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from sympy import symbols, Eq, solve
+import os
+# Clear the terminal
+os.system('cls' if os.name == 'nt' else 'clear')
 print()
 print('-----------------------------------------------------------')
 print()

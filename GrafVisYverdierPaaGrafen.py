@@ -1,6 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from sympy import symbols, Eq, solve
+import os
+# Clear the terminal
+os.system('cls' if os.name == 'nt' else 'clear')
+print('Huskelapp for å plotte y-verdier på grafen')
+print('Bruker numpy for å lage x-verdier og regne ut y-verdier')
+print('Bruker sympy for å finne nullpunktene')
 print()
 print('-----------------------------------------------------------')
 print()

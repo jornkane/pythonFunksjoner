@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import os
+# Clear the terminal
+os.system('cls' if os.name == 'nt' else 'clear')
 """Created on Tue Dec  8 11:00:32 2020. @author: jornkane
 """
 print('Dette er et program der du kan lage egen verditabell\n'

@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sympy import symbols, solve
+import os
+# Clear the terminal
+os.system('cls' if os.name == 'nt' else 'clear')
 
 x = symbols('x')
 # skriv inn funksjonen her og to linjer ned også. Om du har nevner skriv i denominator
